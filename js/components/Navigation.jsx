@@ -8,7 +8,7 @@ import {
   NavItemLink,
   MenuItemLink
 } from 'react-router-bootstrap';
-import AccountNav from 'js/account/components/AccountNav';
+import AccountNav from 'js/components/AccountNav';
 
 export default class Navigation extends React.Component {
   render() {

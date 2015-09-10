@@ -23,7 +23,7 @@ var config = {
   },
   module: {
     loaders: [
-      {test: /\.(js|jsx)$/, loader: 'babel?optional[]=runtime', exclude: /node_modules/},
+      {test: /\.(js|jsx)$/, loader: 'babel?optional[]=runtime&stage=1', exclude: /node_modules/},
       {test: /\.less$/, loader: 'style!css!autoprefixer!less'},
       {test: /\.(eot|ttf|woff|woff2|svg)/, loader: 'file?name=[sha512:hash:base64:12].[ext]'},
       { test: /\.(jpg|jpeg|png)$/, loader: 'url-loader?limit=15000' }
