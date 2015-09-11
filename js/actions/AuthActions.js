@@ -1,6 +1,7 @@
 import alt from 'js/alt';
 import { createActions } from 'alt/utils/decorators';
-var i = 0;
+import AuthService from 'js/services/AuthService';
+var i = 1;
 @createActions(alt)
 class AuthActions {
   updateUser(user) {
